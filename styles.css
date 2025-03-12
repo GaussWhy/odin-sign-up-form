@@ -25,3 +25,19 @@
     border: 2px solid black;
     height: 30vh;
 }
+/*
+form {
+    width: 50%;
+} 
+*/
+
+.sign-up-col-1, .sign-up-col-2 {
+    float: left;
+    width: 50%;
+    border: 2px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
+
