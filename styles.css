@@ -1,3 +1,27 @@
 * {
     box-sizing: border-box;
 }
+
+.main-div {
+    display: flex;
+}
+
+.left-col {
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    float: left;
+    border: 5px solid black;
+    width: 40%;
+    height: 100vh;
+}
+
+.right-col {
+    float: left;
+    border: 5px solid red;
+    width: 60%;
+}
+
+.right-col-div-1 {
+    border: 2px solid black;
+    height: 30vh;
+}
