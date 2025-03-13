@@ -41,3 +41,7 @@ ul {
     list-style-type: none;
 }
 
+ul li {
+    width: 50%; /* This is what fixed the input being under the label, instead of to the right of the label */
+    display: inline-block;
+}
