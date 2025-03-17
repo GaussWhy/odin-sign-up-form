@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('Norse-Bold.otf');
+}
+
 .main-div {
     display: flex;
 }
@@ -103,10 +108,40 @@ legend {
 }
 
 input[type=password]:invalid {
-    border: 10px solid red;
+    border: 1px solid red;
 }
 
 input:focus {
     border: 1px solid blue;
     box-shadow: 2px 2px lightgrey;
+}
+
+.left-col {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    border: 2px solid cyan;
+}
+
+.odin-logo {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    font-size: 2.5em;
+    font-family: 'Norse Bold';
+}
+
+.left-footer {
+  color: white;
+}
+
+a.underline {
+    text-decoration: underline;
+    color: white;
 }
