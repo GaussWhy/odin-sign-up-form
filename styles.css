@@ -18,6 +18,9 @@
     border: 5px solid black;
     width: 40%;
     height: 100vh;
+    /* Testing */
+    display: flex;
+    flex-direction: column;
 }
 
 .right-col {
@@ -136,9 +139,12 @@ img {
     font-size: 2.5em;
     font-family: 'Norse Bold';
 }
+  
 
 .left-footer {
   color: white;
+  /* Testing... */
+  margin-top: auto;
 }
 
 a.underline {
