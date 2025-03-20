@@ -122,7 +122,7 @@ input:focus {
 .left-col {
     position: relative;
 }
-
+/*
 img {
     width: 100%;
     height: auto;
@@ -131,7 +131,8 @@ img {
     bottom: 0;
     border: 2px solid cyan;
 }
-
+*/
+/*
 .odin-logo {
     position: absolute;
     top: 200px;
@@ -139,15 +140,37 @@ img {
     font-size: 2.5em;
     font-family: 'Norse Bold';
 }
-  
+*/  
+
+.odin-logo {
+    font-size: 2.5em;
+    font-family: 'Norse Bold';
+
+}
 
 .left-footer {
   color: white;
   /* Testing... */
   margin-top: auto;
+  text-align: center;
 }
 
 a.underline {
     text-decoration: underline;
     color: white;
+}
+
+.logo-background {
+    background-color: rgba(0,0,0,0.5); 
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+img {
+    width: 100px;
+    height: 150px;
 }
